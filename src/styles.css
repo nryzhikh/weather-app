@@ -1,0 +1,45 @@
+body
+ {
+    background-color: blueviolet;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+select {
+    width: 200px;
+    height: 30px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
